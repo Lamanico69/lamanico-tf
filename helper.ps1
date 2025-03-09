@@ -51,3 +51,17 @@ terraform init -backend-config="remotestate_lamanico"
 
 custom-images-251316
 custom-images-staging
+
+
+echo "# lamanico-tf" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lamanico69/lamanico-tf.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Lamanico69/lamanico-tf.git
+git branch -M main
+git push -u origin main

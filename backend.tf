@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "remotestate_lamanico"
+    bucket = "remotests_lamanico"
     prefix  = "terraform/state"
   }
 }
