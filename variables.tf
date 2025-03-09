@@ -1,7 +1,7 @@
 ### VARIABLES
 variable "project-id" {
   type = string
-  default = "lamanico"
+  default = "lamanico1"
 }
 
 variable "org_id" {
